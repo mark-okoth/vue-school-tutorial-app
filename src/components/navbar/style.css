@@ -1,0 +1,16 @@
+nav {
+  background: rgb(41, 5, 5);
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: auto 50px;
+}
