@@ -2,7 +2,9 @@ export default {
     name: 'navbar',
     components: {},
     data() {
-      return {}
+      return {
+        
+      }
     },
     computed: {},
     mounted() {

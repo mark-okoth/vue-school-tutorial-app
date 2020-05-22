@@ -1,9 +1,8 @@
 nav {
-  background: rgb(41, 5, 5);
+  background: hsl(209, 23%, 22%);
   margin: 0;
   padding: 0;
   color: white;
-  box-shadow: 2px 2px 2px black;
 }
 
 .nav-container {
@@ -12,5 +11,27 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  margin: auto 50px;
+  margin: auto 70px;
+}
+
+ul li {
+  padding:20px ;
+  display: inline;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  
 }
