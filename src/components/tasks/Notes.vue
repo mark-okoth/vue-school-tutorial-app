@@ -14,7 +14,7 @@
         <button class="post">Add</button>
       </form>
       <div class="note-container" v-for="(detail, index) in details" :key="index">
-        <h3>{{posttitle}}</h3>
+        <h3>{{title}}</h3>
         <p>{{detail}}</p>
       </div>
     </div>
@@ -26,6 +26,7 @@ export default {
   data() {
     return {
       posttitle: null,
+      title: '',
       notes: null,
       details: [],
       feedback: null
@@ -33,12 +34,19 @@ export default {
   },
   methods: {
     adding() {
-      if (this.notes && this.posttitle) {
+      if (this.notes) {
         this.details.push(this.notes);
         this.notes = null;
         this.feedback = null;
       } else {
-        this.feedback = "You Must Enter A Title and a Title";
+        this.feedback = "You Must Enter A Note";
+      }
+      if(this.posttitle){
+          this.title = this.posttitle
+          this.feedback = null
+          this.posttitle =null
+      }else{
+          this.feedback = 'You must enter a title'
       }
     }
   }
