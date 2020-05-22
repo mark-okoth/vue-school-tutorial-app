@@ -1,24 +1,26 @@
 <template>
   <div class="home">
-     <tasks/>
-    <create/>
+    <tasks />
+    <create />
+    <notes />
   </div>
 </template>
 
 <script>
-import create from '../components/tasks/Createtask'
-import tasks from '../components/tasks/Tasks'
+import create from "../components/tasks/Createtask";
+import tasks from "../components/tasks/Tasks";
+import notes from "../components/tasks/Notes";
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-   create,
-   tasks
-  },
-}
+    create,
+    tasks,
+    notes
+  }
+};
 </script>
 <style>
-.home{
+.home {
   display: flex;
-  
 }
 </style>

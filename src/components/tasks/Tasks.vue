@@ -24,6 +24,7 @@ export default {
     height: 100vh;
     border-top:none;
     border-left:none;
+    border-right: none;
 }
 
 </style>
