@@ -13,7 +13,7 @@
         <p v-if="feedback" class="feedback">{{feedback}}</p>
         <button class="post">Add</button>
       </form>
-      <div class="note-container" v-for="(detail, index) in details" :key="index">
+      <div class="note-container pipes" v-for="(detail, index) in details" :key="index">
         <h3>{{title}}</h3>
         <p>{{detail}}</p>
       </div>
