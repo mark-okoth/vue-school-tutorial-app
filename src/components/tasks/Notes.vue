@@ -71,9 +71,12 @@ button{
 .note-container{
     width: 400px;
     text-align: center;
-   
     margin: 0 auto;
     
+}
+h3{
+    font-style: italic;
+    font-weight: 100;
 }
 
 </style>
