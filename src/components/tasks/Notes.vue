@@ -3,7 +3,8 @@
         <div class="container">
            <form @submit.prevent="send">
               <input type="text" v-model="posttitle" placeholder="enter the note below"> 
-              <input type="text" v-model="notes" placeholder="type the notes here">
+              <input type="text" v-model="notes" @keydown.tab="adding" placeholder="type the notes here">
+              <p v-if="feedback" class="feedback">{{feedback}}</p>
                <button class="post">Add</button>
                </form> 
              <div class="note-container">
@@ -18,10 +19,29 @@
 export default {
     data(){
         return{
-          posttitle: '',
-          notes:''
+          posttitle: null,
+          notes:null,
+          details:[ ],
+          feedback:null
         }
-    }
+    },
+    methods:{
+        send(){
+          console.log
+        },
+         adding(){
+             if(this.notes){
+              this.details.push(this.notes)
+              console.log(this.details)
+              this.notes = null
+              this.feedback = null
+             }else{
+                 this.feedback = "You Must Enter A Value"
+                
+             }
+         }
+    },
+   
 }
 </script>
 
@@ -77,6 +97,11 @@ button{
 h3{
     font-style: italic;
     font-weight: 100;
+}
+.feedback{
+    color: red;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 </style>
