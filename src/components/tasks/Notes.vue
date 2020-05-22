@@ -6,8 +6,8 @@
               <input type="text" v-model="notes" placeholder="type the notes here">
                <button class="post">Add</button>
                </form> 
-             <div class="note-coontainer">
-                 <h3>{{posttitle}}</h3>
+             <div class="note-container">
+                 <h3>{{posttitle}} </h3>
                  <p>{{notes}}</p>
              </div>
         </div>
@@ -62,9 +62,18 @@ button{
     align-items: center;
     justify-content: center;
     color:white;
-    background: lightblue;
+    background: rgb(46, 81, 94);
     padding: 10px;
     outline: none;
+    
+}
+
+.note-container{
+    width: 400px;
+    text-align: center;
+   
+    margin: 0 auto;
+    
 }
 
 </style>
