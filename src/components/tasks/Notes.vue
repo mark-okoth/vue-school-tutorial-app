@@ -2,14 +2,15 @@
     <div class="Notes">
         <div class="container">
            <form @submit.prevent="send">
-              <input type="text" v-model="posttitle" placeholder="enter the note below"> 
-              <input type="text" v-model="notes" @keydown.tab="adding" placeholder="type the notes here">
+              <input type="text" v-model="posttitle" placeholder="enter the note below">
+              <p v-if="feedback" class="feedback">{{feedback}}</p>
+              <input type="text" v-model="notes" @keydown.enter="adding" placeholder="type the notes here">
               <p v-if="feedback" class="feedback">{{feedback}}</p>
                <button class="post">Add</button>
                </form> 
-             <div class="note-container">
-                 <h3>{{posttitle}} </h3>
-                 <p>{{notes}}</p>
+             <div class="note-container" v-for="(detail, index) in details" :key="index">
+                  <h3>{{posttitle}}</h3>
+                   <p>{{detail}}</p>
              </div>
         </div>
     </div>
@@ -27,7 +28,8 @@ export default {
     },
     methods:{
         send(){
-          console.log
+             this.details
+             this.posttitle
         },
          adding(){
              if(this.notes){
@@ -93,10 +95,6 @@ button{
     text-align: center;
     margin: 0 auto;
     
-}
-h3{
-    font-style: italic;
-    font-weight: 100;
 }
 .feedback{
     color: red;
