@@ -4,7 +4,7 @@
       <div class="nav-container">
          <ul>
            <li><a href="">Home</a></li>
-           <li><a href="">About</a></li>
+           <li><router-link to="/about">About</router-link></li>
            <li><a href="">Topics</a></li>
            <li><a href="">Paths</a></li>
            <li><a href="">Login</a></li>

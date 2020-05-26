@@ -18,16 +18,13 @@ export default {
 
 <style scoped>
 .about{
-  width: 60vw;
-  display: flex;
-  height: 80vh;
-  flex-direction: column;
-  margin:  0 auto;
-  align-items: center;
-  justify-content: center;
-}
-h3{
+  position: absolute;
+  top: 50%;
+  left: 60%;
   text-align: center;
-  margin: 2em auto;
+  transform: translate(-50%, -50%);
+  margin: 60px auto;
+  height:100vh;
+  width: 50vw;
 }
 </style>
