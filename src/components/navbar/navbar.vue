@@ -1,5 +1,64 @@
-<template src="./index.html"></template>
+<template>
+    <div class="navbar">
+    <nav>
+      <div class="nav-container">
+         <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="">About</a></li>
+           <li><a href="">Topics</a></li>
+           <li><a href="">Paths</a></li>
+           <li><a href="">Login</a></li>
+         </ul>
+         
 
-<script src="./main.js"></script>
+      </div>
+    </nav>
+        
+    </div>
+</template>
+<script>
+  export default {
+    name: 'navbar',
+    components: {},
+    data() {
+      return {
+        
+      }
+    },
+    computed: {},
+    mounted() {
+    },
+    methods: {}
+  }
+      
+  </script>
 
-<style src="./style.css" scoped ></style>
+  <style scoped>
+
+  nav{
+    width: 20vw;
+    background: black;
+    height: 100vh;
+  }
+  .nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  ul{
+    margin: 80px 0 ;
+    list-style: none;
+  }
+  ul li{
+    padding: 20px;
+  }
+
+  ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+  }
+  
+  </style>
