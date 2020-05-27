@@ -3,6 +3,7 @@
     <nav>
       <div class="nav-container">
          <ul>
+           <li><router-link to="/"><img src="./x.png" alt=""> </router-link></li>
            <li><router-link to="/"><i class="fas fa-home"></i>Home</router-link></li>
            <li><router-link to="/about"><i class="fas fa-user"></i>About</router-link></li>
            <li><router-link to=""><i class="fas fa-laptop-code"></i>Topics</router-link></li>
@@ -65,6 +66,10 @@
     text-align: left;
     color: white;
    
+  }
+  img{
+   width: 100px;
+   height: 100px;
   }
   
   </style>
