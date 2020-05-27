@@ -9,9 +9,7 @@
            <li><i class="fas fa-book"></i><a href="">Paths</a></li>
            <li><i class="fas fa-sign-in-alt"></i><a href="">Login</a></li>
          </ul>
-         
-
-      </div>
+         </div>
     </nav>
         
     </div>
