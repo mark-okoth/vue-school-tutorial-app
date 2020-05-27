@@ -80,8 +80,15 @@ h2 {
 a {
   text-decoration: none;
   padding: 15px 20px;
-  background: lightslategray;
-  margin-left: 20px;
+  background:rgb(28, 28, 95);
+  margin-right: 20px;
   border-radius: 5px;
+  transition: all 500ms ease-in-out; 
+}
+
+a:hover{
+  background: white;
+  border: ipx solid lightslategrey;
+  color: slateblue;
 }
 </style>

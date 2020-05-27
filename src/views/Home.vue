@@ -36,8 +36,9 @@ export default {
 }
 .home-container a{
   text-decoration: none;
-  background:lightslategray;
+  background:rgb(28, 28, 95);
   padding: 15px 20px;
+  transition: all 500ms ease-in-out;
 }
 
 .home-container a:hover{

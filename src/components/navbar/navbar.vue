@@ -35,7 +35,7 @@
 
   nav{
     width: 20vw;
-    background: black;
+    background:rgb(28, 28, 95);
     height: 100vh;
   }
   .nav-container{
@@ -63,7 +63,7 @@
     margin: 0 15px;
     font-size: 1.2rem;
     text-align: left;
-    color: rgb(145, 145, 241);
+    color: white;
    
   }
   
