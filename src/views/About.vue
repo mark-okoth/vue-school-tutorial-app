@@ -46,6 +46,7 @@ export default {
   overflow-y: scroll;
   font-size: 1.2rem;
   font-weight: lighter;
+  background: rgba(27, 2, 85, 0.767);
 }
 
 .about-container {

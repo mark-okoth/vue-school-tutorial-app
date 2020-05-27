@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,400;1,500&display=swap');
+
 
 *{
     color:white;
-    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", ;
+    font-family: 'Cormorant Upright';
 }
 body{
     max-height: 100vh;
