@@ -3,11 +3,11 @@
     <nav>
       <div class="nav-container">
          <ul>
-           <li><i class="fas fa-home"></i><router-link to="/">Home</router-link></li>
-           <li><i class="fas fa-user"></i><router-link to="/about">About</router-link></li>
-           <li><i class="fas fa-laptop-code"></i><a href="">Topics</a></li>
-           <li><i class="fas fa-book"></i><a href="">Paths</a></li>
-           <li><i class="fas fa-sign-in-alt"></i><a href="">Login</a></li>
+           <li><router-link to="/"><i class="fas fa-home"></i>Home</router-link></li>
+           <li><router-link to="/about"><i class="fas fa-user"></i>About</router-link></li>
+           <li><router-link to=""><i class="fas fa-laptop-code"></i>Topics</router-link></li>
+           <li><router-link to=""><i class="fas fa-book"></i> Path</router-link></li>
+           <li><router-link to=""><i class="fas fa-sign-in-alt"></i>Login</router-link></li>
          </ul>
          </div>
     </nav>
@@ -60,7 +60,7 @@
   }
 
   i{
-    margin: 0 10px;
+    margin: 0 15px;
     font-size: 1.2rem;
     text-align: left;
     color: rgb(145, 145, 241);

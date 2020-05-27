@@ -2,6 +2,7 @@
   <div class="about">
     <div class="about-container">
       <h2>About</h2>
+      <p class="me">👋 Hi, I'm Mark!</p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam numquam mollitia,
         delectus temporibus provident? Sunt voluptatum veniam voluptatem debitis, quam earum laboriosam at
@@ -19,13 +20,13 @@
         fugiat nesciunt repudiandae saepe laudantium porro dignissimos tempora enim, iste fuga eos quidem id cum beatae
         architecto. Distinctio deserunt eius beatae dolorum soluta. Soluta repellendus molestiae sit praesentium, corrupti
         ab quaerat reprehenderit nemo libero quis explicabo consequatur optio deleniti, eius iure id velit, delectus ullam
-        veniam adipisci numquam error exercitationem at. Quis, accusamus ea. Delectus, autem debitis ad a unde alias
-        pariatur facilis est minus reprehenderit vitae adipisci ut quisquam provident labore at ex praesentium,
-        necessitatibus quaerat aspernatur ab nisi dolor laudantium nam? Laudantium, ipsum autem. Perferendis
-        vero nostrum recusandae fugit? Pariatur deserunt ea quia eum quibusdam praesentium itaque perspiciatis
-        eveniet aut exercitationem sed
-        molestiae, deleniti, temporibus sunt odio fuga totam atque. Repellendus a minus mollitia quisquam?
       </p>
+      <br />
+      <div class="social">
+        <a href="https://twitter.com/mark25floor" target="_blank">Twitter</a>
+        <a href="https://github.com/mark-okoth" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mark-okoth-1b514115b/" target="_blank">LinkedIn</a>
+      </div>
     </div>
   </div>
 </template>
@@ -41,16 +42,14 @@ export default {
 
 <style scoped>
 .about {
-  
-  
-}
-
-.about-container{
-  margin: 20px 8vw;
   height: 100vh;
   overflow-y: scroll;
-  height: 100vh;
   font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.about-container {
+  margin: 20px 8vw;
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -68,7 +67,21 @@ export default {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(92, 92, 218);
 }
-h2{
+h2 {
   margin-bottom: 20px;
+}
+.me {
+  margin-bottom: 10px;
+}
+.social {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  padding: 15px 20px;
+  background: lightslategray;
+  margin-left: 20px;
+  border-radius: 5px;
 }
 </style>
