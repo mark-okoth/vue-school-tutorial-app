@@ -37,7 +37,7 @@
   nav{
     width: 20vw;
     background:rgb(28, 28, 95);
-    height: 100vh;
+    height: 101vh;
   }
   .nav-container{
     display: flex;

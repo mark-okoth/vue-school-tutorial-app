@@ -20,7 +20,7 @@ export default {
   background-color: rgb(28, 28, 95);
   background-blend-mode: multiply;
   width: 100vw;
-  height: 100vh;
+  height: 101vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
