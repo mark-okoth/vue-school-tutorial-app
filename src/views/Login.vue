@@ -4,8 +4,14 @@
             
             <form @submit.prevent="onSubmit" class="inputs" >
                 <h2>Login now</h2>
-                <div class="input-field">
-                    <input type="email" v-model="email" placeholder="Please Enter An Email">
+                <div class="input-field" >
+                    <input 
+                        type="email" 
+                        :class="{invalid: $v.email.$error}"
+                        v-model="email" @input="$v.email.$touch()" 
+                        placeholder="Please Enter An Email"
+                        >
+                    <!-- <p>{{$v}}</p> -->
                 </div>
                    <div class="input-field" >
                     <input type="passoword" v-model="password" placeholder="Please Enter a password">
@@ -17,6 +23,7 @@
 </template>
 
 <script>
+import {required, email} from "vuelidate/lib/validators";
 export default {
      
     data(){
@@ -24,6 +31,13 @@ export default {
           email:"",
           password: ""
         }
+    
+    },
+    validations:{
+      email:{
+          required,
+          email
+      }
     }
 }
 </script>
@@ -32,7 +46,7 @@ export default {
 .login{
     background:  rgba(27, 2, 85, 0.767);
     width: 100vw;
-    height: 100vh;
+    height: 101vh;
 }
 .inputs{
     display: flex;
@@ -56,6 +70,7 @@ input{
 }
 ::placeholder{
     font-size: 1.1rem;
+    color: white;
 }
 button{
 width: 22vw;
@@ -66,5 +81,8 @@ background: white
 h2{
     text-align: center;
     margin: 30px auto;
+}
+.invalid{
+    border-bottom: 2px solid red;
 }
 </style>
