@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .login{
     background:  rgba(27, 2, 85, 0.767);
     width: 100vw;
