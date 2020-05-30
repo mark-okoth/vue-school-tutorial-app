@@ -88,7 +88,7 @@ export default {
 }
 
 input {
-  width: 20vw;
+  width: 30vw;
   padding: 10px;
   margin: 10px;
   outline: none;
@@ -104,7 +104,7 @@ input {
   color: white;
 }
 button {
-  width: 22vw;
+  width: 32vw;
   padding: 10px;
   color: black;
   background: white;
