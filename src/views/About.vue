@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 .about {
-  height: 10vh;
+  height: 100vh;
   overflow-y: scroll;
   font-size: 1.2rem;
   font-weight: lighter;

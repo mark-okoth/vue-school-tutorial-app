@@ -27,6 +27,5 @@ export default {
   display: flex;
   height: 100vh;
   flex-direction: row;
-  /* flex: 1; */
 }
 </style>

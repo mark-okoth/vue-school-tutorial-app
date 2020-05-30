@@ -8,7 +8,7 @@
            <li><router-link to="/about"><i class="fas fa-user"></i>About</router-link></li>
            <li><router-link to=""><i class="fas fa-laptop-code"></i>Topics</router-link></li>
            <li><router-link to=""><i class="fas fa-book"></i> Path</router-link></li>
-           <li><router-link to=""><i class="fas fa-sign-in-alt"></i>Login</router-link></li>
+           <li><router-link to="/login"><i class="fas fa-sign-in-alt"></i>Login</router-link></li>
          </ul>
          </div>
     </nav>
