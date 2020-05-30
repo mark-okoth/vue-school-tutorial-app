@@ -11,10 +11,16 @@
                         v-model="email" @input="$v.email.$touch()" 
                         placeholder="Please Enter An Email"
                         >
-                    <!-- <p>{{$v}}</p> -->
+                    <p v-if="$v.email.$error">Enter a valid email address</p>
                 </div>
                    <div class="input-field" >
-                    <input type="passoword" v-model="password" placeholder="Please Enter a password">
+                    <input 
+                        type="password" 
+                        :class="{invalid: $v.password.$error}"
+                        @blur="$v.password.$touch()"
+                        v-model="password"
+                        placeholder="Please Enter a password">
+                        <p v-if="$v.password.$error">Enter a valid password</p>
                 </div>
                 <button type="submit">Login</button>
             </form>
@@ -23,7 +29,7 @@
 </template>
 
 <script>
-import {required, email} from "vuelidate/lib/validators";
+import {required, email, minLength} from "vuelidate/lib/validators";
 export default {
      
     data(){
@@ -37,6 +43,10 @@ export default {
       email:{
           required,
           email
+      },
+      password:{
+          required,
+          minlen: minLength(6)
       }
     }
 }
@@ -84,5 +94,10 @@ h2{
 }
 .invalid{
     border-bottom: 2px solid red;
+}
+p{
+    color: red;
+    margin-left:10px;
+    font-family: roboto;
 }
 </style>
