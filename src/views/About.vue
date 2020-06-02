@@ -4,7 +4,8 @@
       <h2>About</h2>
       <p class="me">👋 Hi, I'm Mark!</p>
       <p>
-      I am a software developer from kenya and Manchester united fan
+      I am a software developer from kenya and Manchester united fan. I currently Live in kenya and due to my love for code
+      I decided to create this platform for tailored course
         Praesentium est ipsum qui nulla, labore recusandae quas tempore vel alias, odit expedita et excepturi perspiciatis.
         Distinctio corrupti natus aperiam odio, totam repellat reprehenderit molestias, atque dolorum, labore magni ex.
         Tempora similique eius soluta commodi rerum quasi assumenda fuga ad deserunt mollitia dicta modi sed tenetur
