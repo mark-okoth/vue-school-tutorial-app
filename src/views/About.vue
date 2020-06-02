@@ -6,13 +6,7 @@
       <p>
       I am a software developer from kenya and Manchester united fan. I currently Live in kenya and due to my love for code
       I decided to create this platform for tailored course
-        Praesentium est ipsum qui nulla, labore recusandae quas tempore vel alias, odit expedita et excepturi perspiciatis.
-        Distinctio corrupti natus aperiam odio, totam repellat reprehenderit molestias, atque dolorum, labore magni ex.
-        Tempora similique eius soluta commodi rerum quasi assumenda fuga ad deserunt mollitia dicta modi sed tenetur
-        ipsam, libero accusantium suscipit eum corrupti repudiandae iure, officia temporibus, quos non minus? Iure
-        quibusdam repudiandae nobis tempora fuga ex. Ex at, est quis consectetur molestiae blanditiis quaerat iure unde
-        delectus accusamus minima veniam perferendis expedita tenetur reprehenderit asperiores repellat odit sint
-        provident nihil pariatur deleniti odio voluptatum. Dolorem sint nisi minus veniam placeat id similique
+       this course will contain best course from youtube and free online resourses
         repellendus eaque molestiae culpa ducimus, quia saepe dignissimos inventore ipsa doloribus odio dicta cumque,
         repellat voluptatem consectetur non corrupti ullam animi. Libero at eius dolores autem deserunt corporis
         delectus dolorum itaque, facilis harum commodi cum quos quis? Fugiat harum quasi ipsa vel itaque. Maiores
